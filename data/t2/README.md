@@ -4,5 +4,5 @@ t2 data
 ~~~~
 #!/bin/bash
 # reg to template
-sct_register_to_template -i t2.nii.gz -l labels.nii.gz -m t2_seg.nii.gz -r 0 -s superfast -o 1 -p ../template/
+sct_register_to_template -i $SCT_TESTING_DATA_DIR/t2/t2.nii.gz -l $SCT_TESTING_DATA_DIR/t2/labels.nii.gz -m $SCT_TESTING_DATA_DIR/t2/t2_seg.nii.gz -r 0 -s superfast -o 1 -p $SCT_TESTING_DATA_DIR/template/
 ~~~~
