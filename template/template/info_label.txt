@@ -1,0 +1,6 @@
+# Template labels
+# PLEASE DO NOT EDIT THE 2nd FIELD! (name)
+# ID, name, file
+0, T2-weighted template, PAM50_small_t2.nii.gz
+3, spinal cord, PAM50_small_cord.nii.gz
+7, vertebral labeling, PAM50_small_levels.nii.gz
