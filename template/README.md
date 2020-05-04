@@ -11,6 +11,7 @@ source sct_env
 sct_resample -i $SCT_DIR/data/PAM50/template/PAM50_t2.nii.gz -mm 1x1x2 -x spline -o template/PAM50_small_t2.nii.gz 
 sct_resample -i $SCT_DIR/data/PAM50/template/PAM50_cord.nii.gz -mm 1x1x2 -x nn -o template/PAM50_small_cord.nii.gz
 sct_resample -i $SCT_DIR/data/PAM50/template/PAM50_levels.nii.gz -mm 1x1x2 -x nn -o template/PAM50_small_levels.nii.gz
+sct_resample -i $SCT_DIR/data/PAM50/template/PAM50_label_discPosterior.nii.gz -mm 1x1x2 -x nn -o template/PAM50_small_label_discPosterior.nii.gz
 ~~~
 
 OLD CODE:
