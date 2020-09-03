@@ -18,6 +18,8 @@ sct_segment_graymatter -i mt1.nii.gz -s mt1_seg.nii.gz -vertfile label/template/
 # binarize segmentation
 sct_maths -i mt1_gmseg_manual.nii.gz -thr 0.5 -o mt1_gmseg_goldstandard.nii.gz 
 sct_maths -i mt1_gmseg_goldstandard.nii.gz -bin -o mt1_gmseg_goldstandard.nii.gz 
+# dummy T1w data (to compute MTsat)
+sct_maths -i mt0.nii.gz -div 1.5 -o t1w.nii.gz
 ~~~~
 
 
