@@ -8,7 +8,7 @@ here = pathlib.Path(__file__).parent.resolve()
 import site, sys; site.ENABLE_USER_SITE = True
 
 setup(
-  name='spinalcordtoolbox-data-<dataset>',
+  name='spinalcordtoolbox-data-testing',
   description='Part of https://github.com/neuropoly/spinalcordtoolbox',
   long_description=(here / 'README.md').read_text(encoding='utf-8'),
   long_description_content_type='text/markdown',
@@ -16,11 +16,10 @@ setup(
   author_email='neuropoly@googlegroups.com',
   url='https://spinalcordtoolbox.com/',
   project_urls={
-      'Source': 'https://github.com/sct-data/<dataset>',
+      'Source': 'https://github.com/sct-data/sct_testing_data',
       #'Documentation': '',
   },
-  #license='CC-BY-NC', ??
-  #license_files=[ ... ] # TODO?
+  license_files=[ 'LICENSE' ],
 
   packages=find_namespace_packages('src/'),
   package_dir={"":"src/"},
