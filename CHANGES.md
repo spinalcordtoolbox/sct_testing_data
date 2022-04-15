@@ -3,6 +3,9 @@ CHANGES
 
 Please start with the most recent changes and add your initials.
 
+2022-04-15 (MGP)
+- added qform/bad_quaternion.nii.gz
+
 2020-05-04 (AF)
 - added template/PAM50_small_label_discPosterior.nii.gz
 
