@@ -6,3 +6,5 @@
 7, spinal cord mask with discrete vertebral levels, PAM50_small_levels.nii.gz
 10, point-wise intervertebral disc labels, PAM50_small_label_disc.nii.gz
 11, point-wise posterior intervertebral disc labels, PAM50_small_label_discPosterior.nii.gz
+16, spinal dorsal nerve rootlets with discrete spinal levels, PAM50_small_rootlets.nii.gz
+17, spinal dorsal nerve rootlets center of mass with discrete spinal levels, PAM50_small_rootlets_midpoints.nii.gz
